@@ -1,0 +1,501 @@
+.service__div {
+  background-color: #02050a;
+  padding-top: 130px;
+}
+.service__div__title {
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.service__div__title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  margin-bottom: 15px;
+  color: #55e6a5;
+}
+.service__div__title h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.3;
+  color: #fff;
+}
+.field {
+  padding: 100px 40px 40px 40px;
+  border: 3px solid #191919;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 62px;
+}
+.field span {
+  position: absolute;
+  top: -47px;
+  width: 100px;
+}
+
+.field h3 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.field p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #a2a2a2;
+}
+
+/* AboutMe Section */
+.aboutMe__div {
+  background-color: #02050a;
+  padding-top: 140px;
+}
+#aboutMe__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutMe__div__title {
+  padding-bottom: 80px;
+}
+.aboutMe__div__title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #55e6a5;
+}
+.aboutMe__div__title h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #fff;
+}
+.aboutMe__div__description {
+  padding-left: 130px;
+  padding-right: 50px;
+  position: relative;
+}
+.aboutMe__div__description p {
+  margin-bottom: 95px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #a2a2a2;
+}
+.aboutMe__div__description button {
+  padding: 25px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #55e6a5;
+  color: #02050a;
+  border: none;
+  font-weight: 500;
+  transition: all 0.3s linear 0s;
+}
+.aboutMe__div__description button:hover{
+  background: #141c27;
+  color: #ffffff;
+}
+.aboutMe__div__description::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: #a2a2a2;
+  top: 10px;
+  left: 0;
+}
+
+.aboutMe__div__img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+}
+.aboutMe__div__img::after {
+  position: absolute;
+  content: "";
+  background: #55e6a5;
+  width: 381.6px;
+  height: 384px;
+  top: -20px;
+  right: -20px;
+  z-index: -1;
+}
+.aboutMe__div__text {
+  position: absolute;
+  background: #232323;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  bottom: -48px;
+  right: 65px;
+}
+.aboutMe__div__text i {
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  line-height: 65px;
+  background: #fff1;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+}
+.aboutMe__div__text__content h4 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+.aboutMe__div__text__content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #a2a2a2;
+  
+}
+/* innovation section */
+.innovation__div {
+  background: #02050a;
+  padding-top: 135px;
+  padding-bottom: 120px;
+}
+.innovation__div__text{
+    margin-top: 85px;
+}
+.innovation__div__text h2 {
+  font-size: 128px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #ffffff;
+}
+.innovation__div__text span {
+  font-size: 60px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.innovation__div__text p {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #a2a2a2;
+}
+.innovation__div__counter{
+    background: #09101a;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.innovation__div__counter span{
+    width: 100px;
+    margin-bottom: 15px;
+    
+}
+.innovation__div__counter h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.innovation__div__counter p{
+    font-size: 18px;
+    color:#fff ;
+    font-weight: 400;
+    line-height: 1.7;
+}
+.innovation__div__form{
+    padding: 60px;
+    background: #09101a;
+    
+}
+.innovation__div__form h2{
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.innovation__div__form p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #a2a2a2;
+  }
+  
+#form{
+    display: block;
+    
+}
+#form input,textarea{
+    width: 100%;
+    outline: none;
+    margin-top: 30px;
+    background: none;
+    color: #fff;
+    border: 1px solid #55e6a5;
+    padding: 22px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    resize: none;
+}
+#form input::placeholder{
+    color: #a2a2a2;
+
+
+}
+#form textarea::placeholder{
+    color: #a2a2a2;
+
+}
+
+#form button{
+    margin-top: 25px;
+    cursor: pointer;
+    padding: 25px 40px;
+    background: #55e6a5;
+    border: none;
+    color: #02050a;
+    transition: all 0.3s linear 0s;
+    font-weight: 500;
+}
+#form button:hover{
+  background: #141c27;
+  color: #ffffff;
+}
+
+/* Media */
+/* Service media */
+@media screen and (max-width: 1200px){
+  .service__div__title h2{
+    font-size: 38px;
+  }
+  .field{
+    padding: 90px 20px 20px;
+  }
+}
+@media screen and (max-width:992px){
+  .service__div__title h2{
+    font-size: 42px;
+  }
+.serviceCol{
+  width: 50%;
+}
+.field{
+  padding: 100px 40px 40px;
+}
+  
+}
+
+@media screen and (max-width:768px){
+  .serviceCol{
+    width: 100%;
+  }
+  .service__div__title h2{
+    font-size: 36px;
+  }
+  }
+  @media screen and (max-width:576px){
+    .field{
+      padding: 100px 25px 25px ;
+    }
+}
+  /* aboutMe media */
+  @media  screen and (max-width:1400px) {
+    .aboutMe__div__title h2{
+      font-size: 38px;
+    }
+  }
+  @media screen and (max-width:992px){
+    .aboutMe__div__title h2{
+      font-size: 42px;
+    }
+    .aboutMe__div__description::after {
+      display: none;
+    }
+    .aboutMe__div__description{
+      padding-left:0;
+    } 
+    .aboutMe__div__description p{
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+    .aboutMe__div__button button{
+      margin-bottom: 70px;
+    }
+    
+    #aboutMe__row{
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .aboutMeCol1{
+      width: 100%;
+    }
+    .aboutMeCol2{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      
+    }  
+  }
+  @media screen and (max-width:992px){
+    .aboutMe__div__img::after{
+      height: 460px;
+    }
+  }
+  @media screen and (max-width:576px){
+    .aboutMe__div__img{
+      margin: 0 auto;
+    }
+    .aboutMeCol2 img{
+      width: 316px;
+      
+    }
+    .aboutMe__div__img::after{
+      width: 302.5px;
+      height: 360px;      
+    }
+
+    .aboutMeCol2{
+      width: 100%;
+      margin: 0 auto;      
+    }
+    .aboutMe__div__text{
+      padding: 15px 30px;
+      right: 35px;
+    }
+    .aboutMe__div__text p{
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+  @media screen and (max-width:460px) {
+    
+    .aboutMe__div__img img{
+      width: 300px;
+    }
+    .aboutMe__div__img::after{
+      width: 286.4px;
+      height: 344px;      
+    }
+    .aboutMe__div__text{
+      padding: 12px 20px;
+      right: 35px;
+    }
+    
+    
+  }
+  @media screen and (max-width:380px) {
+    
+    
+    .aboutMe__div__img img{
+      width: 220px;
+    }
+    .aboutMe__div__img::after{
+      width: 206.4px;
+      height: 264px;      
+    }
+    .aboutMe__div__text h4{
+      font-size: 11px;
+    }
+    .aboutMe__div__text p{
+      font-size: 9px;
+    }
+    .aboutMe__div__text{
+      padding: 14px 20px;
+      right: 25px;
+      bottom: -47px;
+    }
+    .aboutMe__div__text i{
+      width: 40px;
+      height: 40px;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+
+  /* Innovation media */
+  @media screen and (max-width:1400px){
+    .innovation__div__text h2{
+      font-size: 90px;
+    }
+  }
+  .innovation__div__counter{
+    padding: 30px;
+  }
+
+  @media screen and (max-width:1200px){
+    .innovation__div__counter p{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width:992px){
+    .innovation__div__text h2{
+      font-size: 80px;
+    }
+    .innovation__div__text span{
+      font-size: 52px;
+    }
+    .innovationCol{
+      width: 100%;
+    }
+    .innovation__div__counter{
+      margin-bottom: 25px;
+    }
+    .innovation__div__counter{
+      padding: 40px;
+    }
+    .innovation__div__counter p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .innovation__div__text h2{
+      font-size: 70px;
+    }
+    .innovation__div__text span{
+      font-size: 45px;
+    }
+    .innovationCounter-col{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:576px){
+    .innovation__div__text h2{
+      font-size: 40px;
+    }
+    .innovation__div__text span{
+      font-size: 20px;
+    }
+    .innovation__div__form{
+      padding: 25px;
+    }
+    .innovation__div__form h2{
+      font-size: 28px;
+    }
+    
+  }
+  
+  
